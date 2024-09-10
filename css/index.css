@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Pacifico", cursive;
+}
+
+body {
+    background-color: #04023a;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+}
+
+.dateBirth {
+    margin-right: 20px;
+    background-color: #7d0b73;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.main {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 35px;
+
+    color: #7d0b73;
+}
+
+.main-blocks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-item {
+    background-color: #7d0b73;
+    padding: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 20px #a06a9c;
+}
+
+@media (max-width: 500px) {
+    .header {
+        justify-content: center;
+    }
+}
