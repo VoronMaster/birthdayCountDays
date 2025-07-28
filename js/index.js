@@ -43,7 +43,7 @@ function timeUntilBirthday(birthday) {
 }
 
 function displayTimeLeft() {
-    const myBirthday = new Date('06-29'); // Укажите вашу дату рождения в формате: 'MM-DD'
+    const myBirthday = new Date('06-08'); // Укажите вашу дату рождения в формате: 'MM-DD'
     const { months, days, hours, minutes, seconds } = timeUntilBirthday(myBirthday);
 
     document.querySelector('.main-years span').textContent = 0;
